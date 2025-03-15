@@ -16,7 +16,7 @@ public class ConexionJDBC {
     public static void main(String[] args) {
         String usuario="root";//Por defecto 
         String password="";
-        String url="jdbc:mysql://localhost:3307/ecosoft_db";
+        String url="jdbc:mysql://localhost:3306/jdbctest";
         Connection conexion; 
         Statement statement; 
         ResultSet rs;
